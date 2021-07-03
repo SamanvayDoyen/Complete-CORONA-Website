@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+}
+body{
+    background-image:url(https://media-s3-us-east-1.ceros.com/abbott/images/2020/11/16/dfd84c2864dac4f7879bd2951e1b1c20/background-edit.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    color:white;
+}
+a{
+    color:white;
+    font-size: 25px;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+ transform:scale(1.06);
+ border-bottom: 2px solid white;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 3px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+h1{
+    transition: all 0.1s;
+}
+h1:hover{
+    transform:scale(1.03);
+}
+.About{
+    background-color:#990099;
+    color:white;
+    text-align: center;
+    padding: 40px;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+
+}
+p{
+    font-size:18px;
+
+}
+.C19{
+    background-color: #000066;
+    color:white;
+    text-align: center;
+    padding: 40px;
+}
+.Prevention{
+    background-color: #006699;
+    padding: 40px; 
+    color:white;
+    text-align: center;
+}
+.method{
+    color:rgb(148, 203, 255);
+    text-align: left;
+}
+h3{
+    color:white;
+    font-size: 22px;
+}
+.timeline{
+    list-style:none;
+    padding:20px;
+    color:white;
+}
+.timeline li{
+    width:5px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding:20px 0px;
+    margin: 0px auto;
+}
+.timeline li.animation:nth-child(even) div{
+     opacity: 1;
+     transform: translate(200px,0);
+}
+.timeline li.animation:nth-child(odd) div{
+    opacity: 1;
+    transform: translate(-200px,0);
+}
+.timeline li:nth-child(even) div{ 
+    left:-650px;
+} 
+
+.timeline li:nth-child(odd) div{ 
+    left:245px;
+} 
+h4{
+    font-size: 20px;
+}
+.timeline li div{
+    position: relative;
+    width:400px;
+    background-color: salmon;
+    padding: 10px;
+    transition: all 0.6s;
+     opacity: 0;
+}
+.fo{
+    background-color: rgb(140, 255, 230);
+}
+form{
+    padding:20px; 
+}
+label{
+    font-size: 20px;
+    color: rgb(0, 68, 57);
+    padding: 10px;
+    margin-left: 40px;
+}
+input,select,option{
+    margin-left: 40px;
+    color:black;
+    height:30px;
+    width: 800px;
+}
+input[type="checkbox"],input[type="radio"]{
+    width:30px;
+    height: 20px;
+}
+input[type="submit"]{
+    font-size: 15px;
+    margin-left: 590px;
+    width:60px;
+    height:30px;
+}
